@@ -1,0 +1,48 @@
+# --- Environment Variables (Secrets & Keys) ---
+# Never push these! They contain your passwords and API keys.
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Operating System Files ---
+# Hidden files created by Windows and macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Common IDE / Code Editor Folders ---
+# Configuration folders for your editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Package Manager & Dependency Folders ---
+# Big folders that can be reinstalled easily
+node_modules/
+jspm_packages/
+.pnpm-store/
+
+# --- Python Files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# --- Logs and Diagnostics ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
